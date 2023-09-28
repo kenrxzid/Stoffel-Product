@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --white-color: #ffffff;
+  --primary-color: #0056a8;
+  --secondary-color: #f25f5c;
+  --dark-color: #464646;
+
+  --body-font-family: "Work Sans";
+
+  --h1-font-size: 48px;
+  --h2-font-size: 24px;
+  --h3-font-size: 20px;
+  --h4-font-size: 16px;
+  --h5-font-size: 13px;
+  --p-font-size: 10px;
+
+  --border-radius-buttonIcon: 12px;
+  --border-radius-card: 28px;
+  --border-radius-cardProduct: 16px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}
+
+* {
+  font-family: var(--body-font-family);
+  scroll-behavior: smooth;
+}
+
+.button-a {
+  display: flex;
+  height: 60px;
+  width: 192px;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--border-radius-buttonIcon);
+  background: #0056a8;
+  cursor: pointer;
+}
+
+.button-a a {
+  text-decoration: none;
+  font-size: var(--h4-font-size);
+  font-weight: var(--font-weight-medium);
+  color: var(--white-color);
+}
+
+.logo {
+  width: 95.83px;
+  height: 70.03px;
+}
+
+.navbar-custom {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-item-custom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.item-navbar-custom {
+  padding-right: 48px;
+  text-decoration: none;
+  font-size: var(--h4-font-size);
+  font-weight: var(--font-weight-semibold);
+  color: var(--dark-color);
+}
+
+.item-navbar:hover {
+  color: var(--primary-color);
+}
+
+section.section-custom {
+  margin-top: 144px;
+}
+
+.headline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headline-content h1.headline {
+  width: 556px;
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-weight-semibold);
+  color: var(--primary-color);
+}
+
+.headline-content h1.headline-alternate {
+  width: 556px;
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-weight-semibold);
+  color: var(--secondary-color);
+}
+
+.headline-content p.headline {
+  width: 556px;
+  padding-top: 36px;
+  padding-bottom: 48px;
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-weight-regular);
+}
+
+.headline-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.headline-image img {
+  width: 514px;
+  height: 531px;
+}
