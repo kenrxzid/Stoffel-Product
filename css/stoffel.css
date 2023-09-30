@@ -117,3 +117,188 @@ section.section-custom {
   width: 514px;
   height: 531px;
 }
+
+.icon-custom {
+  width: 56px;
+  height: 56px;
+  background: var(--primary-color);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-custom img.icon-custom {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+.headline-information {
+  display: flex;
+  flex-direction: column;
+}
+
+.headline-information h2 {
+  padding-top: 32px;
+  width: 502px;
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-weight-regular);
+  color: var(--dark-color);
+}
+
+.headline-information-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.headline-information-text h1 {
+  padding-left: 40px;
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-weight-semibold);
+  color: var(--primary-color);
+}
+
+.keunggulan-kami-image-card {
+  margin-top: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.keunggulan-kami-image-card img.ilustration {
+  margin-right: 14px;
+  width: 542px;
+  height: 499px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.card-gabungan {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-keunggulan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 267px;
+  height: 176px;
+  background: #f1f9fe;
+  border-radius: 28px;
+  text-align: start;
+  z-index: 1;
+  margin-right: 40px;
+}
+
+.card-keunggulan h3 {
+  font-size: var(--h3-font-size);
+  color: var(--primary-color);
+  font-weight: var(--font-weight-semibold);
+}
+
+.card-keunggulan h4 {
+  padding-top: 14px;
+  font-size: var(--h5-font-size);
+  color: var(--dark-color);
+  font-weight: var(--font-weight-regular);
+}
+
+.card-keunggulan .display {
+  width: 187px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.icon-keunggulan {
+  width: 56px;
+  height: 56px;
+  background: var(--primary-color);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translateY(-64px);
+}
+
+.icon-keunggulan img {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+section#produk {
+  width: 100%;
+  height: 743.34px;
+  background: var(--primary-color);
+}
+
+.produk-headline {
+  padding-top: 72px;
+}
+
+.produk-headline .headline-information-text {
+  justify-content: center;
+}
+
+.produk-headline .headline-information-text .icon-custom {
+  background: var(--white-color);
+}
+
+.produk-headline .headline-information-text h1 {
+  color: var(--white-color);
+}
+
+.card-produk {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.detail-card-produk {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 292.8px;
+  height: 203.17px;
+  background: var(--white-color);
+  border-radius: 16px;
+}
+
+.detail-card-produk img {
+  width: 212.16px;
+  height: 200px;
+  position: relative;
+  right: 40px;
+}
+
+.card-produk-text {
+  width: 138px;
+  height: 97px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 76px;
+}
+
+.card-produk-text h4 {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-weight-semibold);
+  color: var(--primary-color);
+}
+
+.card-produk-text h5 {
+  font-size: var(--p-font-size);
+  font-weight: var(--font-weight-regular);
+  color: var(--primary-color);
+  width: 138px;
+  padding-top: 16px;
+}
