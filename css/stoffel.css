@@ -73,7 +73,7 @@
   color: var(--dark-color);
 }
 
-.item-navbar:hover {
+.item-navbar-custom:hover {
   color: var(--primary-color);
 }
 
@@ -301,4 +301,122 @@ section#produk {
   color: var(--primary-color);
   width: 138px;
   padding-top: 16px;
+}
+
+.testimoni-content {
+  margin-top: 72px;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-around; */
+}
+
+.testimoni-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.testimoni-display img.ilustration-testimoni {
+  width: 476px;
+  height: 531px;
+}
+
+.icon-testimoni {
+  width: 56px;
+  height: 56px;
+  background: var(--primary-color);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translateY(-28px);
+}
+
+.icon-testimoni img {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+
+
+.testimoni-card {
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  width: 503px;
+  height: 318px;
+  background: #F1F9FE;
+  border-radius: 28px;
+}
+
+.testimoni-card .testimoni-text h4 {
+  margin-top: 73.66px;
+  font-size: var(--h4-font-size);
+  font-weight: var(--font-weight-regular);
+}
+
+
+
+.testimoni-card .testimoni-text .testimoni-name h3 {
+  margin-top: 40.34px;
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-weight-semibold);
+  color: var(--primary-color);
+}
+
+.testimoni-card .testimoni-text .testimoni-name h5 {
+  margin-top: 12px;
+  font-size: var(--h5-font-size);
+  font-weight: var(--font-weight-regular);
+  color: var(--dark-color);
+}
+
+section#footer {
+  width: 100%;
+  height: 72px;
+  background: var(--primary-color);
+}
+
+.testimoni-slider  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.slider{
+  display: flex;
+  flex-direction: row;
+  width: 92px;
+  justify-content: space-between;
+}
+
+.slider-arrow {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary-color);
+  border-radius: 60px;
+}
+
+.slider-arrow img {
+  height: 24px;
+  width: 24px;
+}
+
+section#footer {
+  display: flex;
+  align-items: center;
+}
+
+section#footer h5{
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-weight-regular);
+  color: var(--white-color);
 }
